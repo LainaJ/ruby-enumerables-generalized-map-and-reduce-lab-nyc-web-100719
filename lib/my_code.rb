@@ -23,10 +23,7 @@ def reduce(source_array, starting_point = 0)
   total = 0
 
   while i < source_array.length do
-  if starting_point
-    starting_point + total
-  else  
-  total = yield(!source_array[i])
+    total = yield(!source_array[i])
     i += 1
   end
 
