@@ -23,10 +23,9 @@ def reduce(source_array, starting_point = 0)
   total = 0
 
   while i < source_array.length do
-    total = "#{starting_point}" + total + source_array[i]
+    total = starting_point + source_array[i] + (i += 1)
     yield
     i += 1
   end
-
   total
 end
