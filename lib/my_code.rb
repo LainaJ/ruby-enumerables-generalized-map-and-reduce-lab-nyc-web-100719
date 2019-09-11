@@ -22,7 +22,7 @@ end
 def reduce(source_array, starting_point = 0)
   i = 0
   total = i
-  starting_point = 
+  starting_point =
 
   while i < source_array.length do
     total = total + source_array[i]
