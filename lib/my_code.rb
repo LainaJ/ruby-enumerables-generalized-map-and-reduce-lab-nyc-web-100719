@@ -14,7 +14,7 @@ def map(source_array)
 end
 
 # Reduce code below:
-def reduce(source_array, starting_point=nil)
+def reduce(source_array, starting_point = nil)
   if starting_point
     sum = starting_point
     i = 0
