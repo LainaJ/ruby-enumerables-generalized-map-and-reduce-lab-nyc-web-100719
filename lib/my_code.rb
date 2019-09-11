@@ -18,7 +18,7 @@ end
 # returns an array with the original values squared
 
 # Reduce code below:
-def reduce(source_array, starting_point = 0)
+def reduce(source_array, starting_point = nil)
   i = 0
   total = 0
 
