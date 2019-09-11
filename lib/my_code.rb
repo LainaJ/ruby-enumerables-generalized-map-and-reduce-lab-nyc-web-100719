@@ -18,12 +18,12 @@ end
 # returns an array with the original values squared
 
 # Reduce code below:
-def reduce(source_array, base = 0)
+def reduce(source_array, starting_point = 0)
   i = 0
   total = i
 
   while i < source_array.length do
-    total = base + yield(total, source_array[i])
+    total = starting_point + yield(total, source_array[i])
     i += 1
   end
 
