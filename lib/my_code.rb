@@ -13,12 +13,8 @@ def map(source_array)
   base
 end
 
-# returns an array with the original values
-# returns an array with the original values multiplied by 2
-# returns an array with the original values squared
-
 # Reduce code below:
-def reduce(source_array, starting_point = nil)
+def reduce(source_array, starting_point=nil)
   if starting_point
     sum = starting_point
     i = 0
